@@ -1,0 +1,10 @@
+@use 'variables' as *;
+
+h1 {
+   font-family: $primary-font;
+   font-weight: bold;
+   font-size: 4rem;
+
+   color: $black;
+}
+

@@ -1,0 +1,24 @@
+@use 'variables' as *;
+@use 'button' as *;
+@use 'text' as *;
+
+@mixin fill-container {
+   width: 100%;
+   height: 100%;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+// LAYOUT
+
+html {
+   @include fill-container;
+}
+
+body {
+   @include fill-container;
+   margin: 0;
+   padding: 0;
+}
