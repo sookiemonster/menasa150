@@ -7,6 +7,11 @@
    height: 100%;
 }
 
+@mixin no-bounds {
+   margin: 0;
+   padding: 0;
+}
+
 * {
    box-sizing: border-box;
 }
@@ -19,6 +24,82 @@ html {
 
 body {
    @include fill-container;
-   margin: 0;
-   padding: 0;
+   @include no-bounds;
+}
+
+.layout-container {
+   @include fill-container;
+   padding: calc(10px + 5vh) calc(5vw);
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   align-items: center;
+
+   .title {      
+      @include fill-container;
+      display: grid;
+      position: relative;
+
+      grid-template-rows: auto $h3-height $h1-height $h3-height auto;
+      gap: 10px;
+
+      justify-items: center;
+
+      h3 {
+         text-transform: uppercase;
+      }
+   }
+
+   .title-1 {
+      h3 {
+         margin-left: 3rem;
+         justify-self: start;
+      }
+   }
+
+   .title-2 {
+      overflow: hidden;
+
+      h1 {
+         color: $white;
+      }
+
+      h3 {
+         justify-self: center;
+      }
+
+      img {
+         position: absolute;
+         height: 100vh;
+         top: 0;
+         left: 0;
+         z-index: -1;
+         background-color: $black;
+      }
+   }
+
+   .title-3 {
+      h3 {
+         justify-self: end;
+         margin-right: 2rem;
+      }
+
+      .class-desc {
+         position: absolute;
+         top: 2rem;
+         right: 2rem;
+
+         span {
+            font-size: 1.25rem;
+            display: block;
+            text-align: right;
+            font-family: $primary-font;
+            color: $dark-gray;
+         }
+
+         .bold {
+            font-weight: 700;
+         }
+         
+      }
+   }
 }

@@ -1,9 +1,31 @@
 @use 'variables' as *;
 
+$h3-height: 1.75rem;
+$h1-height: 16rem;
+
 h1 {
    font-family: $primary-font;
-   font-weight: bold;
-   font-size: 4rem;
+   font-weight: 900;
+   font-size: 20rem;
+   margin: -5rem 0 -6rem; // Correct margins around top & bottom
 
    color: $black;
+}
+
+h3 {
+   font-family: $primary-font;
+   font-weight: 600;
+   font-size: $h3-height;
+   margin: 0;
+
+   color: $highlight;
+}
+
+.landing-bg-text {
+   background: url(../../img/landing_light.jpg) -800px ;
+   background-size: auto 90vh;
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+   -webkit-text-fill-color: transparent;
 }

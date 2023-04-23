@@ -1,9 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;900&display=swap");
 h1 {
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  font-size: 4rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  font-size: 20rem;
+  margin: -5rem 0 -6rem;
   color: #000000;
+}
+
+h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin: 0;
+  color: #e50041;
+}
+
+.landing-bg-text {
+  background: url(../../img/landing_light.jpg) -800px;
+  background-size: auto 90vh;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 * {
@@ -20,6 +38,67 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+}
+
+.layout-container {
+  width: 100%;
+  height: 100%;
+  padding: calc(10px + 5vh) 5vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+.layout-container .title {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  position: relative;
+  grid-template-rows: auto 1.75rem 16rem 1.75rem auto;
+  gap: 10px;
+  justify-items: center;
+}
+.layout-container .title h3 {
+  text-transform: uppercase;
+}
+.layout-container .title-1 h3 {
+  margin-left: 3rem;
+  justify-self: start;
+}
+.layout-container .title-2 {
+  overflow: hidden;
+}
+.layout-container .title-2 h1 {
+  color: #FFFFFF;
+}
+.layout-container .title-2 h3 {
+  justify-self: center;
+}
+.layout-container .title-2 img {
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: #000000;
+}
+.layout-container .title-3 h3 {
+  justify-self: end;
+  margin-right: 2rem;
+}
+.layout-container .title-3 .class-desc {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+.layout-container .title-3 .class-desc span {
+  font-size: 1.25rem;
+  display: block;
+  text-align: right;
+  font-family: "Nunito Sans", sans-serif;
+  color: #333333;
+}
+.layout-container .title-3 .class-desc .bold {
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */
