@@ -1,18 +1,25 @@
-/* Error: expected "{".
- *    ,
- * 11 | a
- *    |  ^
- *    '
- *   css\sass\_text.scss 11:2  @use
- *   css\sass\main.scss 3:1    root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 11 \2502  a\a    \2502   ^\a    \2575 \a   css\\sass\\_text.scss 11:2  @use\a   css\\sass\\main.scss 3:1    root stylesheet';
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&display=swap");
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #000000;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
