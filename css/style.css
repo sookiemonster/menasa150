@@ -1,19 +1,20 @@
 .button {
   display: block;
   border-radius: 8px;
-  background-color: #121212;
   padding: 15px calc(10px + 15%);
+  background-color: #121212;
   text-align: center;
+  text-decoration: none;
   transition: background-color ease-out 0.15s;
   cursor: pointer;
 }
 
 .button > span {
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
   color: #FFFFFF;
   font-size: 1rem;
   font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
   transition: cubic-bezier(0.54, 1.5, 0.71, 1.07) 0.2s;
 }
 
@@ -23,31 +24,6 @@
 
 .button:hover > span {
   letter-spacing: 3px;
-}
-
-h1 {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 900;
-  font-size: 20rem;
-  margin: -5rem 0 -6rem;
-  color: #000000;
-}
-
-h3 {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 600;
-  font-size: 1.75rem;
-  margin: 0;
-  color: #e50041;
-}
-
-.landing-bg-text {
-  background: url(../../img/landing_light.jpg) -800px;
-  background-size: auto 90vh;
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
 }
 
 /* Transitions ----------------------------------------------*/
@@ -99,6 +75,32 @@ h3 {
     opacity: 1;
   }
 }
+h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  font-size: 20rem;
+  margin: -5rem 0 -6rem;
+  color: #000000;
+}
+
+h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin: 0;
+  color: #e50041;
+}
+
+.landing-bg-text {
+  background: url(../../img/landing_light.jpg) -800px;
+  background-color: #121212;
+  background-size: auto 90vh;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
 * {
   box-sizing: border-box;
 }

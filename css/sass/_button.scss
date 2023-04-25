@@ -4,19 +4,23 @@
 .button {
    display: block;
    border-radius: 8px;
-   background-color: $dark-gray;
    padding: 15px calc(10px + 15%);
+   
+   background-color: $dark-gray;
+
    text-align: center;
+   text-decoration: none;
+
    transition: background-color ease-out .15s;
    cursor: pointer;
  }
  
  .button > span {
-   letter-spacing: 1.5px;
-   text-transform: uppercase;
    color: $white;
    font-size: 1rem;
    font-weight: 600;
+   letter-spacing: 1.5px;
+   text-transform: uppercase;
    transition: cubic-bezier(.54,1.5,.71,1.07) .2s;
  }
  

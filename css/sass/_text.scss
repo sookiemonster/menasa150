@@ -1,4 +1,5 @@
 @use 'variables' as *;
+@use 'transition' as *;
 
 $h3-height: 1.75rem;
 $h1-height: 16rem;
@@ -23,6 +24,7 @@ h3 {
 
 .landing-bg-text {
    background: url(../../img/landing_light.jpg) -800px ;
+   background-color: $dark-gray;
    background-size: auto 90vh;
    background-clip: text;
    -webkit-background-clip: text;
