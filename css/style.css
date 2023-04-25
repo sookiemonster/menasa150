@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;900&display=swap");
 .button {
   display: block;
   border-radius: 8px;
-  background-color: #1b1b1b;
-  padding: 13px calc(10px + 15%);
+  background-color: #121212;
+  padding: 15px calc(10px + 15%);
   text-align: center;
   transition: background-color ease-out 0.15s;
   cursor: pointer;
@@ -51,8 +50,66 @@ h3 {
   -webkit-text-fill-color: transparent;
 }
 
+/* Transitions ----------------------------------------------*/
+@keyframes sf-right {
+  from {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes sf-left {
+  from {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes sf-top {
+  from {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes sf-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 * {
   box-sizing: border-box;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 html {
@@ -88,7 +145,11 @@ body {
 .layout-container .title h3 {
   text-transform: uppercase;
 }
+.layout-container .title-1 h1 {
+  animation: sf-top 1000ms ease;
+}
 .layout-container .title-1 h3 {
+  animation: sf-left 1000ms ease;
   margin-left: 3rem;
   justify-self: start;
 }
@@ -101,9 +162,11 @@ body {
   overflow: hidden;
 }
 .layout-container .title-2 h1 {
+  animation: sf-bottom 1000ms ease;
   color: #FFFFFF;
 }
 .layout-container .title-2 h3 {
+  animation: sf-top 1000ms ease;
   justify-self: center;
 }
 .layout-container .title-2 img {
@@ -114,7 +177,11 @@ body {
   z-index: -1;
   background-color: #000000;
 }
+.layout-container .title-3 h1 {
+  animation: sf-top 1000ms ease;
+}
 .layout-container .title-3 h3 {
+  animation: sf-right 1000ms ease;
   justify-self: end;
   margin-right: 2rem;
 }
@@ -127,7 +194,7 @@ body {
   font-size: 1.25rem;
   display: block;
   text-align: right;
-  color: #1b1b1b;
+  color: #121212;
 }
 .layout-container .title-3 .class-desc .bold {
   font-weight: 700;

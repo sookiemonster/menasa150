@@ -1,6 +1,7 @@
 @use 'variables' as *;
 @use 'button' as *;
 @use 'text' as *;
+@use 'transition' as *;
 
 @mixin fill-container {
    width: 100%;
@@ -15,6 +16,15 @@
 * {
    box-sizing: border-box;
 }
+
+.noselect {
+   -webkit-touch-callout: none; 
+   -webkit-user-select: none; 
+   -khtml-user-select: none; 
+   -moz-user-select: none; 
+   -ms-user-select: none; 
+   user-select: none; 
+ }
 
 // LAYOUT
 
@@ -51,7 +61,11 @@ body {
    }
 
    .title-1 {
+      h1 {
+         @include slide-from-top();
+      }
       h3 {
+         @include slide-from-left();
          margin-left: 3rem;
          justify-self: start;
       }
@@ -67,10 +81,12 @@ body {
       overflow: hidden;
 
       h1 {
+         @include slide-from-bottom();
          color: $white;
       }
 
       h3 {
+         @include slide-from-top();
          justify-self: center;
       }
 
@@ -85,7 +101,12 @@ body {
    }
 
    .title-3 {
+      h1 {
+         @include slide-from-top();
+      }
+
       h3 {
+         @include slide-from-right();
          justify-self: end;
          margin-right: 2rem;
       }
