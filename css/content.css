@@ -181,8 +181,15 @@ body {
 .timeline-container .timeline-section .section-header .active {
   color: #e50041 !important;
 }
+.timeline-container .timeline-section .active h2 {
+  color: #e50041 !important;
+}
 .timeline-container .timeline-section .section-header:hover h2 {
   letter-spacing: 1px;
+  color: #6d6d6d !important;
+}
+.timeline-container .timeline-section .active:hover h2 {
+  color: #e50041 !important;
 }
 
 .event-list {

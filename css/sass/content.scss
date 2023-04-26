@@ -91,6 +91,7 @@ body {
             display: inline-block;
             font-weight: 600;
             transition: cubic-bezier(.54,1.5,.71,1.07) .2s;
+            // transition: color ease .2s;
             @include no-bounds;
             // @include smooth-color;
          }
@@ -107,9 +108,22 @@ body {
          }
       }
 
+      .active {
+         h2 {
+            color: $highlight !important;
+         }
+      }
+      
       .section-header:hover {
          h2 {
             letter-spacing: 1px;
+            color: $dark-med-gray !important;
+         }
+      }
+
+      .active:hover {
+         h2 {
+            color: $highlight !important;
          }
       }
    }
