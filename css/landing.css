@@ -78,7 +78,7 @@
 h1 {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 900;
-  font-size: 20rem;
+  font-size: calc(15rem + 2vw);
   margin: -5rem 0 -6rem;
   color: #000000;
 }
