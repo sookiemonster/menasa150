@@ -1,0 +1,139 @@
+@use 'variables' as *;
+@use 'button' as *;
+@use 'text' as *;
+@use 'transition' as *;
+
+// Content Variables
+$circle-offset-x: 20px;
+$event-offset-x: 43px;
+$timeline-offset-x: calc(40px + 2vw);
+
+
+@mixin fill-container {
+   width: 100%;
+   height: 100%;
+}
+
+@mixin no-bounds {
+   margin: 0;
+   padding: 0;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+.noselect {
+   -webkit-touch-callout: none;
+   -webkit-user-select: none; 
+   -khtml-user-select: none; 
+   -moz-user-select: none; 
+   -ms-user-select: none; 
+   user-select: none; 
+ }
+
+// LAYOUT
+
+html {
+   @include fill-container;
+}
+
+body {
+   @include fill-container;
+   @include no-bounds;
+   font-family: $primary-font;
+}
+
+.layout-container {
+   @include fill-container;
+   @include no-bounds;
+   display: grid;
+   grid-template-columns: minmax(400px, 2fr) 5fr;
+}
+
+.timeline-container {
+   @include fill-container;
+   display: flex;
+   position: relative;
+
+   // Prevent overflow on timeline lines
+   max-height: 100vh;
+   overflow-y: hidden;
+
+   padding: calc(20px + 2vh) calc(10px + 2vw);
+
+   .line {
+      position: absolute;
+      left: $timeline-offset-x;
+      margin-top: 20px;
+      height: 100vh;
+      width: 13px;
+      border: 1px solid $black;
+      z-index: -1;
+   }
+
+   .time-dot {
+      position: relative;
+      left: $circle-offset-x;
+      width: 35px;
+      fill: $highlight;
+   }
+
+   .timeline-section {
+      .section-header {
+         
+         background-color: $white;
+         
+         h2 {
+            display: inline-block;
+            font-weight: 600;
+            @include no-bounds;
+            @include smooth-color;
+         }
+
+         .timespan {
+            display: inline-block;
+            font-style: italic;
+            margin-left: 5px;
+         }
+
+         .active {
+            color: $highlight !important;
+         }
+      }
+   }
+}
+
+.event-list {
+
+   padding-left: $event-offset-x;
+
+   .event-container {
+
+      display: flex;
+      align-items: center;
+      padding: 5px 20px 5px 15px;
+      border-radius: 0px 10px 10px 0px;
+      gap: 10px;
+
+      .event-dash {
+         stroke: $highlight;
+         height: 2px;
+      }
+
+      .event-title {
+         font-style: italic;
+         font-weight: 600;
+      }
+      
+   }
+
+   .active {
+      background-color: $light-gray;
+   }
+   
+}
+
+.content-container {
+
+}

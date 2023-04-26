@@ -1,0 +1,205 @@
+.button {
+  display: block;
+  border-radius: 8px;
+  padding: 15px calc(10px + 15%);
+  background-color: #121212;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color ease-out 0.15s;
+  cursor: pointer;
+}
+
+.button > span {
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  transition: cubic-bezier(0.54, 1.5, 0.71, 1.07) 0.2s;
+}
+
+.button:hover {
+  background-color: #e50041;
+}
+
+.button:hover > span {
+  letter-spacing: 3px;
+}
+
+/* Transitions ----------------------------------------------*/
+@keyframes sf-right {
+  from {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes sf-left {
+  from {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes sf-top {
+  from {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes sf-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  font-size: 20rem;
+  margin: -5rem 0 -6rem;
+  color: #000000;
+}
+
+h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin: 0;
+  color: #e50041;
+}
+
+.landing-bg-text {
+  background: url(../../img/landing_light.jpg) -800px;
+  background-color: #121212;
+  background-size: auto 90vh;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.layout-container {
+  width: 100%;
+  height: 100%;
+  padding: calc(10px + 5vh) 5vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+.layout-container .title {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  position: relative;
+  grid-template-rows: auto 1.75rem 16rem 1.75rem auto;
+  gap: 10px;
+  justify-items: center;
+}
+.layout-container .title h3 {
+  text-transform: uppercase;
+}
+.layout-container .title-1 h1 {
+  animation: sf-top 1000ms ease;
+}
+.layout-container .title-1 h3 {
+  animation: sf-left 1000ms ease;
+  margin-left: 3rem;
+  justify-self: start;
+}
+.layout-container .title-1 .button {
+  position: absolute;
+  bottom: 1rem;
+  left: 3rem;
+}
+.layout-container .title-2 {
+  overflow: hidden;
+}
+.layout-container .title-2 h1 {
+  animation: sf-bottom 1000ms ease;
+  color: #FFFFFF;
+}
+.layout-container .title-2 h3 {
+  animation: sf-top 1000ms ease;
+  justify-self: center;
+}
+.layout-container .title-2 img {
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: #000000;
+}
+.layout-container .title-3 h1 {
+  animation: sf-top 1000ms ease;
+}
+.layout-container .title-3 h3 {
+  animation: sf-right 1000ms ease;
+  justify-self: end;
+  margin-right: 2rem;
+}
+.layout-container .title-3 .class-desc {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+.layout-container .title-3 .class-desc span {
+  font-size: 1.25rem;
+  display: block;
+  text-align: right;
+  color: #121212;
+}
+.layout-container .title-3 .class-desc .bold {
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=landing.css.map */

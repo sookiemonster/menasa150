@@ -1,0 +1,1 @@
+console.log("Add clickable pointer to timeline elements!");

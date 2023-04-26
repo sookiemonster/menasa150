@@ -70,3 +70,7 @@
 @mixin slide-from-bottom($ms: $default-transition) {
    animation: sf-bottom #{$ms}ms ease; 
 }
+
+@mixin smooth-color($ms: $default-quick) {
+   transition: color #{$ms}ms ease;
+}
