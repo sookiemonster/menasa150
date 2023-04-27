@@ -50,7 +50,7 @@ body {
       display: grid;
       position: relative;
 
-      grid-template-rows: auto $h3-height $h1-height $h3-height auto;
+      grid-template-rows: auto $h3-height max-content $h3-height auto;
       gap: 10px;
 
       justify-items: center;

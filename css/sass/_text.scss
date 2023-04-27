@@ -1,22 +1,26 @@
 @use 'variables' as *;
 @use 'transition' as *;
 
-$h3-height: 1.75rem;
-$h1-height: 16rem;
+$h3-height: 0.5rem;
+$h3-scale: 1vw;
+$h1-base-height: 4rem;
+$h1-scale: 12vw;
+$h1-margin-correction: calc($h1-scale / -5);
 
 h1 {
    font-family: $primary-font;
    font-weight: 900;
-   font-size: calc(15rem + 2vw);
-   margin: -5rem 0 -6rem; // Correct margins around top & bottom
-
+   font-size: calc($h1-base-height + $h1-scale);
+   line-height: calc($h1-base-height + $h1-scale);
+   margin: 0 0 $h1-margin-correction;
+   
    color: $black;
 }
 
 h3 {
    font-family: $primary-font;
    font-weight: 600;
-   font-size: $h3-height;
+   font-size: calc($h3-height + $h3-scale);
    margin: 0;
 
    color: $highlight;
