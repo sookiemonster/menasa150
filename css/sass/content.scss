@@ -43,10 +43,12 @@ body {
    @include fill-container;
    @include no-bounds;
    font-family: $primary-font;
+   color: $dark-gray;
 }
 
 a {
    text-decoration: none;
+   color: $dark-gray;
 }
 
 .layout-container {

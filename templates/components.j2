@@ -10,14 +10,14 @@
 {%- endmacro %}
 
 {% macro timeline_section(s) -%}
-<section class="timeline-section noselect" id="{{ s['anchor'] }}">
+<section class="timeline-section noselect" id="timeline-{{ s['anchor'] }}">
    <svg class="time-dot" viewBox="0 0 2 2" xmlns="http://www.w3.org/2000/svg">
       <circle cx="1" cy="1" r="1" />
       </svg>
-   <div class="section-header" id="timeline-sec-{{ s['section_no'] }}">
+   <a class="section-header" href="#{{ s['anchor'] }}">
       <h2>{{ s['title'] }}</h2>
       <span class="timespan">{{ s['date_range'] }}</span>
-   </div>
+   </a>
    <div class="event-list" data-section-no="{{ s['section_no'] }}">
       {% for event in s['event_list'] %}
          {{ timeline_event(event['title'], event['anchor']) }}
@@ -26,18 +26,32 @@
 </section>
 {%- endmacro %}
 
-{% macro list_sections(a) -%}
-{%- for section in a %}
-{{ timeline_section(a[section]) }}
+{% macro list_sections(data) -%}
+{%- for section in data %}
+{{ timeline_section(data[section]) }}
 {%- endfor %}
 {%- endmacro%}
 
 {# Content Creation #}
 
+{% macro section_start(section_obj) -%}
+<div id="{{ section_obj['anchor'] }}" class="">
+   <h1>{{ section_obj['title'] }}</h1>
+</div>
+{%- endmacro %}
+
 {% macro make_chapter(obj) -%}
 <div class="" id="{{ obj['anchor'] }}"> 
-   <h1>{{ obj['title'] }}</h1>
+   <h2>{{ obj['title'] }}</h2>
    <p>{{ obj['text'] }}</p>
 </div>
 {%- endmacro %}
 
+{% macro make_body(data, content) -%}
+   {%- for section in data %}
+      {{ section_start(data[section]) }}
+      {%- for event in (data[section])['event_list'] %}
+         {{ make_chapter(content[event['title']]) }}
+      {%- endfor%}
+   {%- endfor %}
+{%- endmacro %}
