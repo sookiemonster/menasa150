@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 import os, json
 
-DATA_FILE = ""
+MASTER = os.path.join("articles", "timeline.json")
 
 def create_app():
     app = Flask(__name__, static_url_path='', static_folder='')
@@ -22,11 +22,11 @@ app = create_app()
 
 @app.route("/", methods=['GET', 'POST'])
 def resume():
-    data = {}
-   #  with open(DATA_FILE, "r") as f:
-   #      data = json.loads(f.read())
-   
-    return render_template("content.j2")
+    timeline_data = {}
+    with open(MASTER, "r") as f:
+        timeline_data = json.loads(f.read())
+
+    return render_template("content.j2", timeline=timeline_data)
 
 if __name__ == "__main__":
     app.debug = True

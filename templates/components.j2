@@ -1,0 +1,33 @@
+{# Timeline Creation #}
+
+{% macro timeline_event(title, anchor) -%}
+<a class="event-container" href="#{{ anchor }}">
+   <svg class="event-dash" viewBox="0 0 50 2" xmlns="http://www.w3.org/2000/svg">
+      <line x1="0" y1="1" x2="50" y2="1" stroke-dasharray="2"/>
+   </svg>
+   <span id="timeline-{{ anchor }}" class="event-title">{{ title }}</span>
+</a>
+{%- endmacro %}
+
+{% macro timeline_section(s) -%}
+<section class="timeline-section noselect">
+   <svg class="time-dot" viewBox="0 0 2 2" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="1" cy="1" r="1" />
+      </svg>
+   <div class="section-header" id="timeline-sec-{{ s['section_no'] }}">
+      <h2>{{ s['title'] }}</h2>
+      <span class="timespan">{{ s['date_range'] }}</span>
+   </div>
+   <div class="event-list" data-section-no="{{ s['section_no'] }}">
+      {% for event in s['event_list'] %}
+         {{ timeline_event(event['title'], event['anchor']) }}
+      {% endfor %}
+   </div>
+</section>
+{%- endmacro %}
+
+{% macro list_sections(a) -%}
+{%- for section in a %}
+{{ timeline_section(a[section]) }}
+{%- endfor %}
+{%- endmacro%}

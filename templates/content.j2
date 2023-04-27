@@ -1,24 +1,4 @@
-{% macro scaffold_timeline(section_title, section_time, event_list) -%}
-<div class="timeline-section noselect">
-   <svg class="time-dot" viewBox="0 0 2 2" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="1" cy="1" r="1" />
-      </svg>
-   <div class="section-header" id="timeline-sec-1">
-      <h2>{{ section_title }}</h2>
-      <span class="timespan">{{ section_time }}</span>
-   </div>
-   <div class="event-list">
-      <div class="event-container active">
-         <svg class="event-dash" viewBox="0 0 50 2" xmlns="http://www.w3.org/2000/svg">
-            <line x1="0" y1="1" x2="50" y2="1" stroke-dasharray="2"/>
-         </svg>
-         {% for i in range(event_list|length) %}
-         <span id='timeline-ev-{{ i }}' class="event-title">EVENT TITLE</span>
-         {%endfor %}
-      </div>
-   </div>
-</div>
-{%- endmacro %}
+{% import 'components.j2' as c -%}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -39,28 +19,12 @@
       <div class="layout-container">
          <div class="timeline-container">
             <div class="line"></div>
-            <div class="timeline-section noselect">
-               <svg class="time-dot" viewBox="0 0 2 2" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="1" cy="1" r="1" />
-                </svg>
-               <div class="section-header" id="timeline-sec-1">
-                  <h2>Pre-WWII</h2>
-                  <span class="timespan">1800 - 1940</span>
-               </div>
-               <div class="event-list">
-                  <div class="event-container active">
-                     <svg class="event-dash" viewBox="0 0 50 2" xmlns="http://www.w3.org/2000/svg">
-                        <line x1="0" y1="1" x2="50" y2="1" stroke-dasharray="2"/>
-                     </svg>
-                     <span id="timeline-ev-1" class="event-title">EVENT TITLE</span>
-                  </div>
-               </div>
-            </div>
+            {{ c.list_sections(timeline) }}
          </div>
-         <div class="content">
+         <div class="content-container">
             <section id="chapter-1">
                <article id="ev1">
-                  <h1></h1>
+                  <h1>LOREM IPSUM</h1>
                   
                </article>
             </section>
@@ -69,5 +33,6 @@
          </div>
       </div>
    </body>
-   <script src="js/script.js"></script>
+   <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+   <script src="{{ url_for('static', filename='js/timeline.js') }}"></script>
 </html>

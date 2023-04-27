@@ -1,0 +1,33 @@
+{
+   "section1" : {
+      "title" : "Pre-WWII",
+      "date_range" : "1840 - 1964",
+      "section_no" : 1,
+      "anchor" : "section1",
+      "event_list" : 
+      [
+         {
+            "title" : "New Fangled Title",
+            "timeline_title" : "NF Title",
+            "anchor" : "nft",
+            "content_file" : "nf.txt"
+         }
+      ]
+   },
+
+   "section2" : {
+      "title" : "Post Hart-Cellar Act",
+      "date_range" : "1965 - 1964",
+      "section_no" : 2,
+      "anchor" : "section2",
+      "event_list" : 
+      [
+         {
+            "title" : "More Coffee",
+            "timeline_title" : "More Coffee",
+            "anchor" : "mcf",
+            "content_file" : "mcf.txt"
+         }
+      ]
+   }
+}
