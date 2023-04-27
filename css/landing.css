@@ -80,7 +80,7 @@ h1 {
   font-weight: 900;
   font-size: calc(4rem + 12vw);
   line-height: calc(4rem + 12vw);
-  margin: 0 0 -2.4vw;
+  margin: 0;
   color: #000000;
 }
 
@@ -141,7 +141,7 @@ body {
   height: 100%;
   display: grid;
   position: relative;
-  grid-template-rows: auto 0.5rem max-content 0.5rem auto;
+  grid-template-rows: auto calc(0.5rem + 1vw) max-content calc(0.5rem + 1vw) auto;
   gap: 10px;
   justify-items: center;
 }

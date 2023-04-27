@@ -12,7 +12,7 @@ h1 {
    font-weight: 900;
    font-size: calc($h1-base-height + $h1-scale);
    line-height: calc($h1-base-height + $h1-scale);
-   margin: 0 0 $h1-margin-correction;
+   margin: 0;
    
    color: $black;
 }
