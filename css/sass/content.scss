@@ -35,12 +35,18 @@ $timeline-offset-x: calc(40px + 2vw);
 
 html {
    @include fill-container;
+   scroll-behavior: smooth;
+   scroll-padding: 50px 0;
 }
 
 body {
    @include fill-container;
    @include no-bounds;
    font-family: $primary-font;
+}
+
+a {
+   text-decoration: none;
 }
 
 .layout-container {
@@ -187,7 +193,9 @@ body {
 .content-container {
 
    @include fill-container;
-   padding: calc(40px + 1vw);
+   padding: 30px calc(40px + 1vw);
 
+   scroll-behavior: smooth;
+   scroll-padding: 30px 0;
    overflow-y: scroll;
 }

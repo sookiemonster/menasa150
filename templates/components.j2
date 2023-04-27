@@ -10,7 +10,7 @@
 {%- endmacro %}
 
 {% macro timeline_section(s) -%}
-<section class="timeline-section noselect">
+<section class="timeline-section noselect" id="{{ s['anchor'] }}">
    <svg class="time-dot" viewBox="0 0 2 2" xmlns="http://www.w3.org/2000/svg">
       <circle cx="1" cy="1" r="1" />
       </svg>
@@ -31,3 +31,13 @@
 {{ timeline_section(a[section]) }}
 {%- endfor %}
 {%- endmacro%}
+
+{# Content Creation #}
+
+{% macro make_chapter(obj) -%}
+<div class="" id="{{ obj['anchor'] }}"> 
+   <h1>{{ obj['title'] }}</h1>
+   <p>{{ obj['text'] }}</p>
+</div>
+{%- endmacro %}
+
