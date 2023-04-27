@@ -91,7 +91,9 @@ a {
 
       .section-header {
          
+         display: block;
          background-color: $white;
+         padding-bottom: 3px;
          margin-bottom: 15px;
          cursor: pointer;
          

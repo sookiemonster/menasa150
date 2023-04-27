@@ -10,11 +10,11 @@
 {%- endmacro %}
 
 {% macro timeline_section(s) -%}
-<section class="timeline-section noselect" id="timeline-{{ s['anchor'] }}">
+<section class="timeline-section noselect">
    <svg class="time-dot" viewBox="0 0 2 2" xmlns="http://www.w3.org/2000/svg">
       <circle cx="1" cy="1" r="1" />
       </svg>
-   <a class="section-header" href="#{{ s['anchor'] }}">
+   <a class="section-header" id="timeline-{{ s['anchor'] }}" href="#{{ s['anchor'] }}">
       <h2>{{ s['title'] }}</h2>
       <span class="timespan">{{ s['date_range'] }}</span>
    </a>

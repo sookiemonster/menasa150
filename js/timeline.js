@@ -2,7 +2,7 @@
 let timeline_sections = document.querySelectorAll('.section-header');
 let timeline_events = document.querySelectorAll('.event-container');
 
-let sectionIdPrefix = "timeline-sec-";
+let sectionIdPrefix = "timeline-section";
 
 /**
  * Remove '.active' from all timeline elements

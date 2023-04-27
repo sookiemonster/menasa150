@@ -144,7 +144,9 @@ a {
   fill: #e50041;
 }
 .timeline-container .timeline-section .section-header {
+  display: block;
   background-color: #FFFFFF;
+  padding-bottom: 3px;
   margin-bottom: 15px;
   cursor: pointer;
 }
