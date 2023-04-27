@@ -17,7 +17,7 @@
 
    "section2" : {
       "title" : "Post Hart-Cellar Act",
-      "date_range" : "1965 - 1964",
+      "date_range" : "1965 - 1999",
       "section_no" : 2,
       "anchor" : "section2",
       "event_list" : 
@@ -28,6 +28,16 @@
             "anchor" : "mcf",
             "content_file" : "mcf.txt"
          }
+      ]
+   }, 
+   "section3" : {
+      "title" : "Present",
+      "date_range" : "2000 - Now",
+      "section_no" : 3,
+      "anchor" : "section3",
+      "event_list" : 
+      [
+        
       ]
    }
 }
