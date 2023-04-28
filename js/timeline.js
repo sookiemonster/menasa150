@@ -71,25 +71,17 @@ let options = {
 }
 
 let callback = (entries, observer) => {
-   // Highlight the element furthest 
-   // down the DOM that is intersecting
-   
    entries.forEach((entry) => {
-      console.log(entry.target);
+      // console.log(entry.target);
       if (entry.isIntersecting) {
          active.push(entry.target);
-
-         // let anchor = entry.target.dataset.anchor;
-         // let timelineTarget = document.getElementById("timeline-".concat(anchor));
-         // // Highlight event 
-         // highlightArbitrary(timelineTarget);
       } else {
          let index = active.indexOf(entry.target);
          active.splice(index, index+1);
       }
    });
 
-   console.log(active);
+   // console.log(active);
    let anchor = active[active.length -1].dataset.anchor;
    let timelineTarget = document.getElementById("timeline-".concat(anchor));
    // Highlight event 

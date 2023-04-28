@@ -30,14 +30,14 @@ def resume():
     text_data = {}
     for section in timeline_data:
         for event in timeline_data.get(section).get('event_list'):
-            print(event)
+            # print(event)
             text_data[event.get('title')] = {}
             with open(os.path.join(ARTICLE_DIR, event.get('content_file')), "r") as f:
                 text_data[event.get('title')]['title'] = event.get('title')
                 text_data[event.get('title')]['text'] = f.read()
                 text_data[event.get('title')]['anchor'] = event.get('anchor')
 
-    print(text_data)
+    # print(text_data)
     return render_template("content.j2", 
                            timeline=timeline_data,
                            content=text_data)
