@@ -20,31 +20,33 @@ let highlightElement = (target) => {
    target.classList.add('active');
 }
 
+let highlightParentSection = (target) => {
+   if (target.classList.contains('event-container')) {
+      let sectionNumber = target.closest(".event-list").dataset.sectionNo;
+      let parentSection = document.getElementById(
+         sectionIdPrefix.concat(sectionNumber)
+      );
+      parentSection.classList.add('active');
+   }
+}
+
+let highlightArbitrary = (target) => {
+   clear_active();
+   highlightElement(target);
+   highlightParentSection(target);
+}
+
 let init_listeners = () => {
+
    for (i = 0; i < timeline_events.length; i++) {
       timeline_events[i].addEventListener('click', (e) => {
-         // console.log(e.target);
-         clear_active();
-         // Highlight event 
-         highlightElement(e.currentTarget);
-
-         // Highlight event section
-
-         let sectionNumber = e.currentTarget.closest(".event-list").dataset.sectionNo;
-
-         highlightElement(
-            document.getElementById(
-               sectionIdPrefix.concat(sectionNumber)
-            )
-         );
+         highlightArbitrary(e.currentTarget);
       });
    }
 
    for (i = 0; i < timeline_sections.length; i++) {
       timeline_sections[i].addEventListener('click', (e) => {
-         // console.log(e.target);
-         clear_active();
-         e.currentTarget.classList.add('active');
+         highlightElement(e.currentTarget);
       });
    }
 }
@@ -54,27 +56,48 @@ highlightElement(timeline_sections[0]);
 
 // Highlight Scrolling
 
-// let options = {
-//    rootMargin: '0px',
-//    threshold: 0.2
-// }
- 
+let c = document.querySelector("#content");
+let trackedText = document.querySelectorAll('.content-tracked');
+let active = []
 
-// let callback = (entries, observer) => {
-//    entries.forEach(entry => {
-//       if (entry.isIntersecting){
-//          clear_active();
-//          console.log(entry.target);
-//          let topic = entry.target.dataset.topic;
-//          let navItem = document.querySelector(`a[href="#${topic}"]`).parentElement;
-//          // console.log(navItem);
-//          updateCurrent(navItem);
-//       }
-//    });
-// };
+let bind_observe = (obs) => {
+   for (let i = 0; i < trackedText.length; i++) {
+      obs.observe(trackedText[i]);
+   }
+}
 
-// let observer = new IntersectionObserver(callback, options);
+let options = {
+   root: c,
+}
 
-// for (let i = 0; i < topics.length; i++) {
-//    observer.observe(topics[i]);
-// };
+let callback = (entries, observer) => {
+   // Highlight the element furthest 
+   // down the DOM that is intersecting
+   
+   entries.forEach((entry) => {
+      console.log(entry.target);
+      if (entry.isIntersecting) {
+         active.push(entry.target);
+
+         // let anchor = entry.target.dataset.anchor;
+         // let timelineTarget = document.getElementById("timeline-".concat(anchor));
+         // // Highlight event 
+         // highlightArbitrary(timelineTarget);
+      } else {
+         let index = active.indexOf(entry.target);
+         active.splice(index, index+1);
+      }
+   });
+
+   console.log(active);
+   let anchor = active[active.length -1].dataset.anchor;
+   let timelineTarget = document.getElementById("timeline-".concat(anchor));
+   // Highlight event 
+   highlightArbitrary(timelineTarget);
+};
+
+let observer = new IntersectionObserver(callback, options);
+
+
+bind_observe(observer);
+
