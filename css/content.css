@@ -55,12 +55,13 @@
 }
 .section-begin .design span {
   display: block;
-  font-size: calc(9rem + 5vw);
-  line-height: calc(9rem + 5vw - 3.7037037037vw);
+  font-size: calc(13rem + 5vw);
+  line-height: calc(13rem + 5vw - 3.7037037037vw);
   text-transform: uppercase;
   font-weight: 900;
-  background-color: rgb(248, 210, 210);
-  background-size: auto 90vh;
+  background: url(../../img/design.jpg) -800px;
+  background-color: rgb(255, 170, 184);
+  background-size: auto calc(2 * (13rem + 5vw));
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
