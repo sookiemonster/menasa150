@@ -1,11 +1,11 @@
 {# Timeline Creation #}
 
-{% macro timeline_event(title, anchor) -%}
+{% macro timeline_event(title, timeline_title, anchor) -%}
 <a class="event-container"  id="timeline-{{ anchor }}" href="#{{ anchor }}">
    <svg class="event-dash" viewBox="0 0 50 2" xmlns="http://www.w3.org/2000/svg">
       <line x1="0" y1="1" x2="50" y2="1" stroke-dasharray="2"/>
    </svg>
-   <span class="event-title">{{ title }}</span>
+   <span class="event-title">{{ timeline_title }}</span>
 </a>
 {%- endmacro %}
 
@@ -20,7 +20,7 @@
    </a>
    <div class="event-list" data-section-no="{{ s['section_no'] }}">
       {% for event in s['event_list'] %}
-         {{ timeline_event(event['title'], event['anchor']) }}
+         {{ timeline_event(event['title'], event['timeline_title'], event['anchor']) }}
       {% endfor %}
    </div>
 </section>
@@ -35,13 +35,13 @@
 {# Content Creation #}
 
 {% macro section_start(section_obj) -%}
-<div id="{{ section_obj['anchor'] }}" class="content-tracked" data-anchor="{{ section_obj['anchor'] }}">
+<div id="{{ section_obj['anchor'] }}" class="content-tracked section-begin" data-anchor="{{ section_obj['anchor'] }}">
    <h1>{{ section_obj['title'] }}</h1>
 </div>
 {%- endmacro %}
 
 {% macro make_chapter(obj) -%}
-<div id="{{ obj['anchor'] }}" class="content-tracked" data-anchor="{{ obj['anchor'] }}"> 
+<div id="{{ obj['anchor'] }}" class="content-tracked chapter" data-anchor="{{ obj['anchor'] }}"> 
    <h2>{{ obj['title'] }}</h2>
    <p>{{ obj['text'] }}</p>
 </div>

@@ -26,6 +26,14 @@
   letter-spacing: 3px;
 }
 
+.section-begin {
+  height: 100vh;
+}
+
+.chapter {
+  min-height: 90vh;
+}
+
 /* Transitions ----------------------------------------------*/
 @keyframes sf-right {
   from {

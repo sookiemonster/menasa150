@@ -51,7 +51,7 @@ let init_listeners = () => {
    }
 }
 
-init_listeners();
+// init_listeners();
 highlightElement(timeline_sections[0]);
 
 // Highlight Scrolling
@@ -68,6 +68,7 @@ let bind_observe = (obs) => {
 
 let options = {
    root: c,
+   rootMargin: "-30% 0px -30% 0px"
 }
 
 let callback = (entries, observer) => {

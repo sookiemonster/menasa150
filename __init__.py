@@ -1,7 +1,8 @@
 from flask import Flask, render_template
 import os, json
 
-MASTER = os.path.join("articles", "timeline.json")
+JSON_FNAME = "debug.json"
+MASTER = os.path.join("articles", JSON_FNAME)
 ARTICLE_DIR = "articles"
 
 def create_app():
