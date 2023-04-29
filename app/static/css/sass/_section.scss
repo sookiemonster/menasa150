@@ -1,4 +1,5 @@
 @use 'variables' as *;
+@use 'transition' as *;
 
 $h1-base-height: 2rem;
 $text-scale: 5vw;
@@ -17,6 +18,8 @@ $design-height: 13rem;
    padding: 20px;
    
    h1 {
+      @include slide-from-right;
+
       text-align: end;
       text-transform: uppercase;
       font-weight: 900;
@@ -34,9 +37,11 @@ $design-height: 13rem;
       z-index: -3;
       height: 100%;
       width: 80vw;
+      @include slide-from-left(1000);
 
 
       span {
+
          display: block;
          font-size: calc($design-height + $text-scale);
          line-height: calc($design-height + $text-scale - ($text-scale / 1.35));

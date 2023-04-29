@@ -59,6 +59,7 @@ a {
 }
 
 .timeline-container {
+   @include slide-from-left;
    @include fill-container;
    display: grid;
    position: relative;
@@ -71,12 +72,15 @@ a {
    box-shadow: 5px 0 5px $light-gray;
 
    .line {
+      @include slide-from-bottom;
+
       position: absolute;
       left: $timeline-offset-x;
       margin-top: calc(30px + 2vh);
       height: 100vh;
       width: 13px;
-      border: 1px solid $black;
+      border-left: 1px solid $black;
+      border-right: 1px solid $black;
       z-index: -1;
    }
 
@@ -90,7 +94,7 @@ a {
    .timeline-section {
 
       .section-header {
-         
+
          display: block;
          background-color: $white;
          padding-bottom: 3px;
