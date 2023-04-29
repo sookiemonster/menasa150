@@ -6,24 +6,21 @@ MASTER = os.path.join("articles", JSON_FNAME)
 ARTICLE_DIR = "articles"
 
 def create_app():
-    app = Flask(__name__, static_url_path='', static_folder='')
+    app = Flask(__name__, static_url_path='', static_folder='static')
     # Configure app key & DB location
     app.config.from_mapping(
         SECRET_KEY = os.urandom(32),
     )
-
-    # Ensure the DB location exists
-    try:
-        os.makedirs(app.instance_path)
-    except OSError:
-        pass
-
     return app
 
 app = create_app()
 
-@app.route("/", methods=['GET', 'POST'])
-def resume():
+@app.route("/")
+def landing():
+    return render_template('index.html')
+
+@app.route("/history")
+def content():
     timeline_data = {}
     with open(MASTER, "r") as f:
         timeline_data = json.loads(f.read())
@@ -45,4 +42,4 @@ def resume():
 
 if __name__ == "__main__":
     app.debug = True
-    app.run(host='127.0.0.1', port=5000)
+    app.run()
