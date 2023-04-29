@@ -1,33 +1,65 @@
 
 @use 'variables' as *;
+@use 'transition' as *;
+
+$button-size: 50px;
+$icon-size: 30px;
+
+// Text Button
 
 .button {
-   display: block;
-   border-radius: 8px;
-   padding: 15px calc(10px + 15%);
-   
-   background-color: $dark-gray;
+  display: block;
+  border-radius: 8px;
+  padding: 15px calc(10px + 15%);
+  
+  background-color: $dark-gray;
 
-   text-align: center;
-   text-decoration: none;
+  text-align: center;
+  text-decoration: none;
 
-   transition: background-color ease-out .15s;
-   cursor: pointer;
- }
- 
- .button > span {
-   color: $white;
-   font-size: 1rem;
-   font-weight: 600;
-   letter-spacing: 1.5px;
-   text-transform: uppercase;
-   transition: cubic-bezier(.54,1.5,.71,1.07) .2s;
- }
- 
- .button:hover {
-   background-color: $highlight;
- }
- 
- .button:hover >span {
-   letter-spacing: 3px;
- }
+  transition: background-color ease-out .15s;
+  cursor: pointer;
+}
+
+.button > span {
+  color: $white;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  transition: cubic-bezier(.54,1.5,.71,1.07) .2s;
+}
+
+.button:hover {
+  background-color: $highlight;
+}
+
+.button:hover >span {
+  letter-spacing: 3px;
+}
+
+ // Icon Button
+
+.icon-button {
+  display: flex;
+  width: $button-size;
+  height: $button-size;
+
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px rgb(224, 224, 224);
+
+  @include smooth-bg-color(100);
+
+  svg {
+    fill: $highlight;
+    width: $icon-size;
+    height: $icon-size;
+  }
+}
+
+.icon-button:hover {
+  background-color: $light-gray;
+}

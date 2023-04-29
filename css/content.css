@@ -1,3 +1,52 @@
+/* Transitions ----------------------------------------------*/
+@keyframes sf-right {
+  from {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes sf-left {
+  from {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes sf-top {
+  from {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes sf-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .button {
   display: block;
   border-radius: 8px;
@@ -24,6 +73,26 @@
 
 .button:hover > span {
   letter-spacing: 3px;
+}
+
+.icon-button {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px rgb(224, 224, 224);
+  transition: background-color 100ms ease;
+}
+.icon-button svg {
+  fill: #e50041;
+  width: 30px;
+  height: 30px;
+}
+
+.icon-button:hover {
+  background-color: #e1e1e1;
 }
 
 .section-begin {
@@ -77,55 +146,6 @@
   min-height: 100vh;
 }
 
-/* Transitions ----------------------------------------------*/
-@keyframes sf-right {
-  from {
-    opacity: 0;
-    transform: translateX(50%);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-@keyframes sf-left {
-  from {
-    opacity: 0;
-    transform: translateX(-50%);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-@keyframes sf-top {
-  from {
-    opacity: 0;
-    transform: translateY(-50%);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-@keyframes sf-bottom {
-  from {
-    opacity: 0;
-    transform: translateY(50%);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-@keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 * {
   box-sizing: border-box;
 }
@@ -277,6 +297,13 @@ a {
   scroll-padding: 30px 0;
   overflow-y: scroll;
   overflow-x: hidden;
+}
+
+#home {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
 }
 
 /*# sourceMappingURL=content.css.map */
