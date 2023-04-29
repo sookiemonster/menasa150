@@ -36,7 +36,12 @@
 
 {% macro section_start(section_obj) -%}
 <div id="{{ section_obj['anchor'] }}" class="content-tracked section-begin" data-anchor="{{ section_obj['anchor'] }}">
-   <h1>{{ section_obj['title'] }}</h1>
+   <div class="design">
+      <span class="design-text">{{ section_obj['title'] }}
+         <span class="shift-left">{{ section_obj['title'] }}</span>
+      </span>
+   </div>
+   <h1>{{ section_obj['section_display'] }}</h1>
 </div>
 {%- endmacro %}
 
