@@ -147,6 +147,15 @@
 .chapter {
   min-height: 100vh;
 }
+.chapter h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.chapter p {
+  color: #121212;
+  line-height: 1.75rem;
+}
 
 * {
   box-sizing: border-box;
