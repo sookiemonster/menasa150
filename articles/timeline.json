@@ -1,0 +1,52 @@
+{
+   "section1" : {
+      "title" : "Pre-WWII",
+      "section_display" : "Before World War Two",
+      "date_range" : "1840 - 1964",
+      "section_no" : 1,
+      "anchor" : "section1",
+      "event_list" : 
+      [
+         {
+            "title" : "New Fangled Title",
+            "timeline_title" : "NF Title",
+            "anchor" : "nft",
+            "content_file" : "nf.txt"
+         },
+         {
+            "title" : "Ah Ah Ah",
+            "timeline_title" : "Ah Ah Ah",
+            "anchor" : "aaa",
+            "content_file" : "aaa.txt"
+         }
+      ]
+   },
+
+   "section2" : {
+      "title" : "Post Hart-Cellar Act",
+      "section_display" : "After the Hart-Cellar Act",
+      "date_range" : "1965 - 1999",
+      "section_no" : 2,
+      "anchor" : "section2",
+      "event_list" : 
+      [
+         {
+            "title" : "More Coffee",
+            "timeline_title" : "More Coffee",
+            "anchor" : "mcf",
+            "content_file" : "mcf.txt"
+         }
+      ]
+   }, 
+   "section3" : {
+      "title" : "Present",
+      "section_display" : "Present Day",
+      "date_range" : "2000 - Now",
+      "section_no" : 3,
+      "anchor" : "section3",
+      "event_list" : 
+      [
+        
+      ]
+   }
+}
