@@ -2,7 +2,7 @@
 @use 'transition' as *;
 
 $h1-base-height: 2rem;
-$text-scale: 5vw;
+$text-scale: 4vw;
 
 $design-height: 13rem;
 
@@ -70,16 +70,62 @@ $design-height: 13rem;
 
 .chapter {
    min-height: 100vh;
-
+   
    h2 {
-      font-size: 2rem;
+      font-size: 3rem;
       font-weight: 900;
       text-transform: uppercase;
    }
-
+   
    p {
+      font-family: $serif-font;
       color: $dark-gray;
       line-height: 1.75rem;
    }
 }
 
+.quote-container {
+   display: grid;
+   width: 100%;
+   
+   grid-template-columns: 1fr 1fr;
+   gap: 4vw;
+   justify-content: center;
+   align-items: center;
+
+   font-family: $serif-font;
+   
+   .quote {
+      font-size: 1.25rem;
+      line-height: 2.5rem;
+
+      .quote-author {
+         margin-top: 3rem;
+         font-weight: 600;
+         text-align: right;
+      }
+   }
+}
+
+.captioned-container {
+   display: grid;
+   width: 100%;
+   height: 100%;
+   grid-template-rows: 1fr 2rem;
+
+   .caption {
+      text-align: center;
+      font-style: italic;
+      padding: 5px;
+   }
+}
+
+.image-container {
+   display: flex;
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+
+   justify-content: center;
+   align-items: center;
+}

@@ -1,0 +1,14 @@
+<div class="quote-container" id="hca-quote">
+   <div class="captioned-container">
+      <div class="image-container">
+         <img src="img/signing_small.jpg">
+      </div>
+      <div class="caption">The Signing of the Hart-Cellar Act</div>
+   </div>
+   <div class="quote">
+      "This bill that we will sign today is not a revolutionary bill. It does not affect the lives of millions. It will not reshape the structure of our daily lives, or really add importantly to either our wealth or our power.
+      <br><br>Yet it is still one of the most important acts of this Congress and of this administration."
+      <div class="quote-author">Lyndon B. Johnson (1965)</div>
+   </div>
+</div>
+

@@ -110,7 +110,7 @@
   text-transform: uppercase;
   font-weight: 900;
   color: #000000;
-  font-size: calc(2rem + 5vw);
+  font-size: calc(2rem + 4vw);
   z-index: 0;
 }
 .section-begin .design {
@@ -126,13 +126,13 @@
 }
 .section-begin .design span {
   display: block;
-  font-size: calc(13rem + 5vw);
-  line-height: calc(13rem + 5vw - 3.7037037037vw);
+  font-size: calc(13rem + 4vw);
+  line-height: calc(13rem + 4vw - 2.962962963vw);
   text-transform: uppercase;
   font-weight: 900;
   background: url(../../img/design.jpg) -800px;
   background-color: rgb(255, 170, 184);
-  background-size: auto calc(2 * (13rem + 5vw));
+  background-size: auto calc(2 * (13rem + 4vw));
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -148,13 +148,54 @@
   min-height: 100vh;
 }
 .chapter h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 900;
   text-transform: uppercase;
 }
 .chapter p {
+  font-family: "Gelasio", serif;
   color: #121212;
   line-height: 1.75rem;
+}
+
+.quote-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  gap: 4vw;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gelasio", serif;
+}
+.quote-container .quote {
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+}
+.quote-container .quote .quote-author {
+  margin-top: 3rem;
+  font-weight: 600;
+  text-align: right;
+}
+
+.captioned-container {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-rows: 1fr 2rem;
+}
+.captioned-container .caption {
+  text-align: center;
+  font-style: italic;
+  padding: 5px;
+}
+
+.image-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
 }
 
 * {
@@ -197,7 +238,7 @@ a {
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: minmax(400px, 1fr) 5fr;
+  grid-template-columns: minmax(350px, 1fr) 5fr;
 }
 
 .timeline-container {
@@ -306,7 +347,7 @@ a {
 .content-container {
   width: 100%;
   height: 100%;
-  padding: 30px calc(40px + 1vw);
+  padding: 30px calc(40px + 5vw) 30px calc(40px + 1vw);
   scroll-behavior: smooth;
   scroll-padding: 30px 0;
   overflow-y: scroll;
