@@ -139,7 +139,6 @@ $design-height: 13rem;
       font-style: italic;
       padding: 5px;
       background-color: $white;
-      border: 1px solid $med-gray;
    }
 }
 
@@ -149,6 +148,8 @@ $design-height: 13rem;
    height: 70vh;
    overflow: hidden;
 
+   background-color: $white;
    justify-content: center;
    align-items: center;
+
 }
