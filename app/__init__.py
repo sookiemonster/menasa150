@@ -22,15 +22,15 @@ def landing():
 @app.route("/history")
 def content():
     timeline_data = {}
-    with open(MASTER, "r") as f:
+    with open(MASTER, "r", encoding='utf-8') as f:
         timeline_data = json.loads(f.read())
-
+    
     text_data = {}
     for section in timeline_data:
         for event in timeline_data.get(section).get('event_list'):
             # print(event)
             text_data[event.get('title')] = {}
-            with open(os.path.join(ARTICLE_DIR, event.get('content_file')), "r") as f:
+            with open(os.path.join(ARTICLE_DIR, event.get('content_file')), "r", encoding='utf-8') as f:
                 text_data[event.get('title')]['title'] = event.get('title')
                 text_data[event.get('title')]['text'] = f.read()
                 text_data[event.get('title')]['anchor'] = event.get('anchor')

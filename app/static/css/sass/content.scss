@@ -55,7 +55,7 @@ a {
    @include fill-container;
    @include no-bounds;
    display: grid;
-   grid-template-columns: minmax(350px, 1fr) 5fr;
+   grid-template-columns: minmax(375px, 1fr) 5fr;
 }
 
 .timeline-container {
@@ -201,7 +201,7 @@ a {
 .content-container {
 
    @include fill-container;
-   padding: 30px calc(40px + 5vw) 30px calc(40px + 1vw);
+   padding: 30px calc(40px + 2vw) 30px;
 
    scroll-behavior: smooth;
    scroll-padding: 30px 0;
