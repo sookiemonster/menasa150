@@ -7,34 +7,34 @@
       "anchor" : "section1",
       "event_list" : 
       [
-         {
-            "title" : "New Fangled Title",
-            "timeline_title" : "NF Title",
-            "anchor" : "nft",
-            "content_file" : "nf.txt"
-         },
-         {
-            "title" : "Ah Ah Ah",
-            "timeline_title" : "Ah Ah Ah",
-            "anchor" : "aaa",
-            "content_file" : "aaa.txt"
-         }
       ]
    },
 
    "section2" : {
-      "title" : "Post Hart-Cellar Act",
-      "section_display" : "After the Hart-Cellar Act",
+      "title" : "Hart-Celler Act",
+      "section_display" : "The Hart-Celler Act & Onwards",
       "date_range" : "1965 - 1999",
       "section_no" : 2,
       "anchor" : "section2",
       "event_list" : 
       [
          {
-            "title" : "More Coffee",
-            "timeline_title" : "More Coffee",
-            "anchor" : "mcf",
-            "content_file" : "mcf.txt"
+            "title" : "The Hart-Celler Act",
+            "timeline_title" : "Hart-Celler Act",
+            "anchor" : "hca",
+            "content_file" : "hca.txt"
+         }, 
+         {
+            "title" : "Taking Root in NYC",
+            "timeline_title" : "Taking Root",
+            "anchor" : "tkr",
+            "content_file" : "tkr.txt"
+         }, 
+         {
+            "title" : "Enclaves Around The City",
+            "timeline_title" : "Enclaves in NYC",
+            "anchor" : "enc",
+            "content_file" : "enc.txt"
          }
       ]
    }, 

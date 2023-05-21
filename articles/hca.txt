@@ -1,0 +1,31 @@
+<div class="quote-container" id="hca-quote">
+   <div class="captioned-container">
+      <div class="image-container">
+         <img src="img/signing_small.jpg">
+      </div>
+      <div class="caption">The Signing of the Hart-Celler Act</div>
+   </div>
+   <div class="quote">
+      "This bill that we will sign today is not a revolutionary bill. It does not affect the lives of millions. It will not reshape the structure of our daily lives, or really add importantly to either our wealth or our power.
+      <br><br>Yet it is still one of the most important acts of this Congress and of this administration."
+      <div class="quote-author">Lyndon B. Johnson (1965)</div>
+   </div>
+</div>
+
+<div class="section-content">
+   <h3>So What is The Hart-Celler Act?</h3>
+   <p>The passage of the Hart-Celler Act, also referred to as the Immigration and Nationality Act of 1965, was a landmark legislation for global immigration–not just MENASA peoples–to the United States. Before its enactment, the 1924 Johnson-Reed Act had established quotas limiting the number of immigrants from sending countries. However, the Hart-Celler Act abolished these racial quotas, opening the doors for immigrants from all over the world to come to America. And though it was proposed to be a bill that would, in President Lyndon B. Johnson’s own words, "not affect the lives of millions," it ultimately facilitated the migration of over one million immigrants (Waldinger, 1989) over the course of 1966 to 1979. </p>
+
+   <h3>A Shift in New York’s Demographic Landscape</h3>
+   <p>The Hart-Celler Act selected for professionals. Naturally, skilled MENASA immigrants rose to the occasion and voyaged the trip to New York. As such, the demographic landscape surrounding MENASA presence began to see a transition. Firstly, there weren’t nearly as many MENASA immigrants in New York. More importantly, however, the people coming from MENASA regions, most notably South Asia, held widely different positions when compared to the primarily homogeneous set of male professionals that came later with the passage of the bill (Khandelwal, 2018). In fact, a significant number of South Asian immigrants were originally maritime workers that left their positions to open a variety of local businesses, including restaurants and hotels, and situated themselves in Manhattan (Bald, 2007). However, with the bill extending an invite to a specific subset of people as it did, mainly professionals and students flooded in, quickly establishing themselves within their newfound communities (Khandelwal, 2018; Hatton, 2015).</p>
+   <p>Along with such an influx of people came an equally large demand for ethnic resources that had once been accessible and abundant in their home countries. As such, Hart-Celler Act’s passage demarcates a start to a new era of MENASA immigration in New York. This stage, categorized by a dramatic increase in the MENASA population and the development of ethnic communities and resources, thus encapsulates the beginning and continued growth of a significant, widespread MENASA presence throughout the city.</p>
+
+   <div class="references">
+      <h4>References</h4>
+      <p>Bald, V. (2007). ‘Lost’ In The City. <i>South Asian Popular Culture</i>, 5(1), 59–76. doi:10.1080/14746680701210360</p>
+      <p>Hatton, T. J. (2015). United States Immigration Policy: The 1965 Act and its Consequences. <i>The Scandinavian Journal of Economics</i>, 117(2), 347–368. http://www.jstor.org/stable/43673707</p>
+      <p>Khandelwal, M. S. (2018). <i>Becoming American, being Indian: An Immigrant Community in New York City.</i> Cornell University Press. </p>
+      <p>Johnson, L. B. (1965, October 3) <i>Remarks at the Signing of the Immigration Bill</i> [Speech transcript]. The American Presidency Project. https://www.presidency.ucsb.edu/documents/remarks-the-signing-the-immigration-bill-liberty-island-new-york</p>
+      <p>Waldinger, R. (1989). Race and Ethnicity. In C. Brecher & R. Horton, <i>Setting municipal priorities.</i> New York: New York University Press.</p>
+   </div>
+</div>
