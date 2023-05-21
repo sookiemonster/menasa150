@@ -7,6 +7,36 @@
       "anchor" : "section1",
       "event_list" : 
       [
+         {
+            "title" : "Ottoman Migration Begins",
+            "timeline_title" : "Ottoman Migration",
+            "anchor" : "otm",
+            "content_file" : "otm.txt"
+         }, 
+         {
+            "title" : "Anti-Arab Sentiments Form",
+            "timeline_title" : "Anti-Arab Sentiment",
+            "anchor" : "aas",
+            "content_file" : "aas.txt"
+         },
+         {
+            "title" : "Syrian Migration to the U.S.",
+            "timeline_title" : "Syrian Migration",
+            "anchor" : "smw",
+            "content_file" : "smw.txt"
+         },
+         {
+            "title" : "Little Syria",
+            "timeline_title" : "Little Syria",
+            "anchor" : "ls",
+            "content_file" : "ls.txt"
+         },
+         {
+            "title" : "After 1924",
+            "timeline_title" : "Post-1924",
+            "anchor" : "1924",
+            "content_file" : "1924.txt"
+         }
       ]
    },
 

@@ -1,0 +1,24 @@
+<div class="section-content">
+   <div class="quote-container">
+      <div class="quote">
+         “There is no question but that the Syrian tree planted in America soil will grow and flourish and blossom out into as good fruit as that of any nationality” 
+         <div class="quote-author">Kawkab America</div>
+      </div>
+   </div>
+   <p>In the 1890s, a community of Syrians formed on NYC’s Washington Street, called Little Syria. With nearly 2,000 Syrians living in NYC, they brought their cultures to their new settlement, with people walking in their traditional customs and eating traditional Syrian cuisines. While early immigrants were often disadvantaged and illiterate, in the 1890s, an increasing number of college-educated, literate intellectuals, educators, and journalists began to settle in NYC. In 1892, the linotype was used to print the first Arabic-language newspaper in North America, named Kawkab America. With diversity in occupation, community organizations such as the Syrian Ladies Aid Society and periodicals such as the Syrian-American Commercial Magazine also bloomed between 1890 and 1940.</p>
+   <div class="quote-container">
+      <div class="quote">
+        “In Arab American folklore - we have liked to think of our forebears as independent businessmen who disdained to work for others and had the courage, against all odds, to strike out on their own.”
+         <div class="quote-author">Alixa Naff</div>
+      </div>
+   </div>
+   <p>In the first immigration wave that ended around 1910, suppliers and peddlers were intrinsic to the community. Many produced and sold textiles; some were in the tobacco business; some ran dry goods stores. Peddling was a representation of early Syrian immigrant life, for it was not only a business of trade but also a symbol for their eventual return home. As time went on, some returned home, while others settled permanently. As the peddlers accumulated more wealth, they began to open their own businesses. According to the Syrian Business Directory, over 300 Syrian businesses had been established by 1908. They sold rugs, groceries, and various textiles.</p>
+   <p>Having amassed wealth, many moved to the cheaper and cleaner Brooklyn, relying on ferries to commute between the boroughs. Leaving the next wave of immigrants to live in tenements. As immigration became stagnant with the passing of the Johnson-Reed Act of 1924, the community became scattered. Later in 1946, residents were forced to evict due to the construction of the Brooklyn Battery Tunnel. Later, the construction of the World Trade Center completely demolished the remaining enclave of Little Syria.</p>
+
+   <div class="references">
+      <h4>References</h4>
+      <p><i>Syrian colony. </i>Washington Street Historical Society. (n.d.). https://wshsoc.org/history</p>
+      <p><i>Remembering Manhattan’s Little Syria.</i> The New York Public Library. (n.d.). https://www.nypl.org/blog/2015/11/19/manhattans-little-syria </p>
+      <p>Truzzi, O. M. S. (1997). The Right Place at the Right Time: Syrians and Lebanese in Brazil and the United States, a Comparative Approach. <i>Journal of American Ethnic History, 16</i>(2), 3–34. http://www.jstor.org/stable/27502161</p>
+   </div>
+</div>

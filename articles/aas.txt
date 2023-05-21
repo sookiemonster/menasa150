@@ -1,0 +1,15 @@
+<div class="section-content">
+   <div class="quote-container">
+      <div class="quote">
+         “These people love to trade, particularly the individual bargain, which offers scope for what is amiably called ‘a contest of wits’ but is really the ensnaring of the unsuspecting by the spider type.” 
+         <div class="quote-author">Edward Ross</div>
+      </div>
+   </div>
+   <p>Before the rise of Islamophobia after 9/11, sentiments against people of MENASA descent were on the rise ever since their entrance into the United States. At different times, different groups were targeted. Early Syrian immigrants were mostly Christians who came due to both economic disparities and religious persecution. The press stressed Maronite oppression by Ottoman Muslims to evoke "Chritian sympathy."(Karpat, 1985) When Syrians began their peddling business, Orientalists often regarded them as cunning and deceitful. Nativist sentiments were at their height in the early 1900s, especially anti-Asian sentiments. The Johnson-Reed Act of 1924 prohibited Asians from naturalization. This is not only directed towards Syrians; for instance, Japanese were entirely forbidden from naturalization. One of the most prominent figures of nativism was the former Stanford professor Edward Ross, who held disdain for most non-Anglo-Saxon races. Regarding Syrians, he briefly praised their focus on education for the next generation but was quick to accuse them of profiteering, which in itself is a common anti-Semitic trope; treating women unfairly; and generally being deceitful. </p>
+
+   <div class="references">
+      <h4>References</h4>
+      <p>Parker, A. W. (1925). The Ineligible to Citizenship Provisions of the Immigration Act of 1924. <i>The American Journal of International Law, 19</i>(1), 23–47. https://doi.org/10.2307/2189081</p>
+      <p>Truzzi, O. M. S. (1997). The Right Place at the Right Time: Syrians and Lebanese in Brazil and the United States, a Comparative Approach. <i>Journal of American Ethnic History, 16</i>(2), 3–34. http://www.jstor.org/stable/27502161</p>
+   </div>
+</div>
