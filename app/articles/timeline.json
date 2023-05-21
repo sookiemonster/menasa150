@@ -46,7 +46,24 @@
       "anchor" : "section3",
       "event_list" : 
       [
-        
+         {
+            "title" : "9/11",
+            "timeline_title" : "9/11",
+            "anchor" : "911",
+            "content_file" : "911.txt"
+         }, 
+         {
+            "title" : "The Patriot Act",
+            "timeline_title" : "Patriot Act",
+            "anchor" : "pat",
+            "content_file" : "pat.txt"
+         }, 
+         {
+            "title" : "The Iraq War",
+            "timeline_title" : "Iraq War",
+            "anchor" : "irw",
+            "content_file" : "irw.txt"
+         }
       ]
    }
 }
