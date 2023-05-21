@@ -197,7 +197,7 @@
   margin-right: auto;
 }
 
-.quote-container {
+#hca-quote {
   display: grid;
   width: 100%;
   margin-bottom: 50px;
@@ -205,21 +205,31 @@
   justify-content: center;
   align-items: center;
   background-color: #121212;
-  font-family: "Gelasio", serif;
 }
-.quote-container .quote {
-  padding: 50px;
+#hca-quote .quote {
   color: #FFFFFF;
   font-size: 1.1rem;
   line-height: 2.3rem;
+  padding: 50px;
 }
-.quote-container .quote .quote-author {
+#hca-quote .quote-author {
   margin-top: 3rem;
+}
+
+.quote {
+  padding: 20px 0;
+  font-family: "Gelasio", serif;
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+}
+.quote .quote-author {
+  margin-top: 1rem;
   font-weight: 600;
   text-align: right;
 }
 
 .captioned-container {
+  font-family: "Gelasio", serif;
   display: grid;
   width: 100%;
   height: 100%;
