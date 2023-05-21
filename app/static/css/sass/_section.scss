@@ -216,33 +216,39 @@ $design-height: 13rem;
    padding: 0;
    margin: 20px;
    gap: 10px;
-   height: 400px;
    overflow: hidden;
 
-   img {
-      height: calc(100% - 2rem);
-   }
 }
 
 .caption {
    font-family: $serif-font;
    font-style: italic;
+   text-align: center;
 }
 
 .full {
    margin: 0 auto;
    width: 100%;
+
+   img {
+      width: 100%;
+   }
 }
 
 .left {
    margin-left: -5vw;
    float: left;
    height: 400px;
+   img {
+      height: calc(100% - 2rem);
+   }
 }
 
 .right {
    margin-right: -5vw;
    float: right;
    height: 400px;
-   
+   img {
+      height: calc(100% - 2rem);
+   }
 }

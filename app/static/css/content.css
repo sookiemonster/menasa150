@@ -265,20 +265,20 @@
   padding: 0;
   margin: 20px;
   gap: 10px;
-  height: 400px;
   overflow: hidden;
-}
-.image-container img {
-  height: calc(100% - 2rem);
 }
 
 .caption {
   font-family: "Gelasio", serif;
   font-style: italic;
+  text-align: center;
 }
 
 .full {
   margin: 0 auto;
+  width: 100%;
+}
+.full img {
   width: 100%;
 }
 
@@ -287,11 +287,17 @@
   float: left;
   height: 400px;
 }
+.left img {
+  height: calc(100% - 2rem);
+}
 
 .right {
   margin-right: -5vw;
   float: right;
   height: 400px;
+}
+.right img {
+  height: calc(100% - 2rem);
 }
 
 * {
