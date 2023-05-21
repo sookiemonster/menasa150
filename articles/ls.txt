@@ -1,4 +1,8 @@
 <div class="section-content">
+   <div class="image-container full">
+      <image src="img/little_sy.jpeg">
+      <span class="caption">Inside a Little Syrian Restaraunt</span>
+   </div>
    <div class="quote-container">
       <div class="quote">
          “There is no question but that the Syrian tree planted in America soil will grow and flourish and blossom out into as good fruit as that of any nationality” 
