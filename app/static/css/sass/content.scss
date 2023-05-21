@@ -4,7 +4,7 @@
 @use 'transition' as *;
 
 // Content Variables
-$circle-offset-x: 20px;
+$circle-offset-x: 23px;
 $event-offset-x: 43px;
 $timeline-offset-x: calc(40px + 2vw);
 
@@ -55,7 +55,7 @@ a {
    @include fill-container;
    @include no-bounds;
    display: grid;
-   grid-template-columns: minmax(375px, 1fr) 5fr;
+   grid-template-columns: minmax(400px, 1fr) 5fr;
 }
 
 .timeline-container {
@@ -87,7 +87,7 @@ a {
    .time-dot {
       position: relative;
       left: $circle-offset-x;
-      width: 35px;
+      width: 27px;
       fill: $highlight;
    }
 
@@ -98,7 +98,7 @@ a {
          display: block;
          background-color: $white;
          padding-bottom: 3px;
-         margin-bottom: 15px;
+         margin-bottom: 0;
          cursor: pointer;
          
          h2 {

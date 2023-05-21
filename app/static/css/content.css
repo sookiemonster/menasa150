@@ -334,7 +334,7 @@ a {
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: minmax(375px, 1fr) 5fr;
+  grid-template-columns: minmax(400px, 1fr) 5fr;
 }
 
 .timeline-container {
@@ -361,15 +361,15 @@ a {
 }
 .timeline-container .time-dot {
   position: relative;
-  left: 20px;
-  width: 35px;
+  left: 23px;
+  width: 27px;
   fill: #e50041;
 }
 .timeline-container .timeline-section .section-header {
   display: block;
   background-color: #FFFFFF;
   padding-bottom: 3px;
-  margin-bottom: 15px;
+  margin-bottom: 0;
   cursor: pointer;
 }
 .timeline-container .timeline-section .section-header h2 {
