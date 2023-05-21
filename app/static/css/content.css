@@ -152,6 +152,7 @@
   font-size: 3rem;
   font-weight: 900;
   text-transform: uppercase;
+  color: #000000;
 }
 .chapter h3 {
   font-size: 1.25rem;
@@ -181,12 +182,15 @@
   background-color: #000000;
   margin: 30px 0;
 }
+.chapter .references {
+  margin-bottom: calc(20px + 10vh);
+}
 .chapter .references h4 {
   font-size: 1rem;
   font-family: "Gelasio", serif;
 }
 .chapter .references p {
-  font-size: 0.8rem;
+  font-size: 0.76rem;
   padding-left: 3em;
   text-indent: -3em;
 }
