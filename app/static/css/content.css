@@ -266,7 +266,7 @@
   margin: 20px;
   gap: 10px;
   height: 400px;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 .image-container img {
   height: calc(100% - 2rem);
@@ -285,13 +285,13 @@
 .left {
   margin-left: -5vw;
   float: left;
-  width: 300px;
+  height: 400px;
 }
 
 .right {
   margin-right: -5vw;
   float: right;
-  width: 300px;
+  height: 400px;
 }
 
 * {
