@@ -23,6 +23,12 @@
             "timeline_title" : "Hart-Celler Act",
             "anchor" : "hca",
             "content_file" : "hca.txt"
+         }, 
+         {
+            "title" : "Taking Root",
+            "timeline_title" : "Taking Root",
+            "anchor" : "tkr",
+            "content_file" : "tkr.txt"
          }
       ]
    }, 

@@ -73,6 +73,7 @@ $design-height: 13rem;
    min-height: 100vh;
    
    h2 {
+      text-align: center;
       font-size: 3rem;
       font-weight: 900;
       text-transform: uppercase;
@@ -95,6 +96,13 @@ $design-height: 13rem;
       // Auto indent
       padding-left: -3em;
       text-indent: 3em;
+   }
+
+   .note  {
+      font-size: 0.85rem;
+      font-style: italic;
+      padding-left: 0;
+      text-indent: 0;
    }
    
    
@@ -121,7 +129,10 @@ $design-height: 13rem;
    }
 
    .section-content {
+      max-width: 1000px;
       padding: 0 $body-indent;
+      margin-left: auto;
+      margin-right: auto;
    }
 }
 
