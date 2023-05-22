@@ -100,6 +100,20 @@ $design-height: 13rem;
       text-indent: 3em;
    }
 
+   .break {
+      margin-top: -1rem;
+      padding-left: 0em !important;
+      text-indent: 0em !important;
+   }
+
+   li {
+      font-family: $serif-font;
+      color: $dark-gray;
+      line-height: 2.5rem;
+      font-size: 1.05rem;
+   }
+   
+
    .note  {
       font-size: 0.85rem;
       font-style: italic;
@@ -174,6 +188,12 @@ $design-height: 13rem;
       justify-content: center;
       align-items: center;
    
+   }
+}
+
+#graph {
+   img{
+      height: 300px;
    }
 }
 

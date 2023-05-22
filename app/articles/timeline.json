@@ -55,6 +55,12 @@
             "content_file" : "hca.txt"
          }, 
          {
+            "title" : "Arab-Israeli War (1967-1973)",
+            "timeline_title" : "Arab-Israeli War",
+            "anchor" : "aiw",
+            "content_file" : "aiw.txt"
+         },
+         {
             "title" : "Taking Root in NYC",
             "timeline_title" : "Taking Root",
             "anchor" : "tkr",

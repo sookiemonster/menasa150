@@ -168,6 +168,17 @@
   padding-left: -3em;
   text-indent: 3em;
 }
+.chapter .break {
+  margin-top: -1rem;
+  padding-left: 0em !important;
+  text-indent: 0em !important;
+}
+.chapter li {
+  font-family: "Gelasio", serif;
+  color: #121212;
+  line-height: 2.5rem;
+  font-size: 1.05rem;
+}
 .chapter .note {
   font-size: 0.85rem;
   font-style: italic;
@@ -228,6 +239,10 @@
   background-color: #FFFFFF;
   justify-content: center;
   align-items: center;
+}
+
+#graph img {
+  height: 300px;
 }
 
 .quote {
