@@ -1,0 +1,29 @@
+<div class="section-content">
+   <h3>Drastic Increase of MENASA immigration into the US</h3>
+   <p>There were many countries involved in the conflict in the Middle East at the time, all being a part of the MENASA region: Israel, Egypt, Jordan and Syria which resulted in significant political tensions and would lead to greater political instability within the region. During and after the war, a big wave of Arab immigrants entered the United States due to the political and economic problems that emerged, and entered in a variety of different skill sets (refugees, exiles, students, etc…) which brought greater resources compared to the earlier waves of MENASA immigration. Due to more specialized and advanced skill sets, immigrants revitalized the ethnic institutions that lost touch with Arabic culture, and played a major role in the organization of Arab American institutions that were conscious of their political and economic connections.</p>
+   <p>The ideas of the war that came with the immigrants also had a profound impact on the sense of the MENASA community. Arab American communities became unified under the support for the Palestinian struggle for national rights. It raised awareness and engagement among Arab Americans and exposed them to new forms of racial prejudice. </p>
+
+   <h3>Consequent Shift in Perception of Arabic Communities</h3>
+   <p>Unlike earlier waves of MENASA immigration, a large portion of the wave of immigration in the 50s and 60s were Muslim and were unwilling to assimilate into American culture and abandon their cultural and political heritage. This view, however, was conflicting due to their desire to reconcile their Arab identity and values with their presence in the US. This sparked the beginning of widespread islamophobia within the US and was propagated by government agencies that viewed Arab Muslims as potential security risks. </p>
+   <div class="image-container right">
+      <image src="https://media.npr.org/assets/img/2022/08/09/ap22153356592987-a42fe088e0a827de9a35d2ac53b19ef6e937c14a-s1300-c85.webp">
+      <span class="caption">An arabic terrorist on the balcony of an apartment where they took the<br> Israeli Olympic team hostage (1972)</span>
+   </div>
+
+   <p>In 1972, the Olympics in Munich were interrupted by a crisis where a group of Arab Muslim terrorists killed 11 Israeli hostages and a German policeman. The incident caused ripples and made western governments more aware and cautious of the threat of terrorism which introduced many new changes such as the call for specialized police units and unconventional warfare, as well as the Nixon administration’s Operation Boulder. The policy involved screening ethnic Arabs seeking visas, the intimidation of Arab students based on their political beliefs, and the surveillance of Arab activists in a domestic setting. These policies were conducted under the guise of being both a national security directive and a response against potential terrorism, however Operation Boulder often overlooked and ignored the civil rights and free speech of Arab Americans. Under the lens of the American government, Arab Americans were viewed as potential spies or propagandists and began suspecting political activists and Arabs as being complicit with alleged terrorism. It was at this point that the muslim terrorist stigma became known and led to the monitoring and targeting of Arab American activists and individuals, as well as becoming a vehicle for islamophobia and xenophobia. Random operations at airports and border crossings became commonplace and Arab Americans were often subjected to searches, detention, and other forms of harassment.</p>
+   
+   <div class="break image-container right">
+      <image src="https://www.ocregister.com/wp-content/uploads/migration/nw0/nw0sgp-b88534397z.120151010124755000g34cggqp.10.jpg?w=800">
+      <span class="caption">Helena Odeh showing a picture taken of her father, Alex Odeh <br>and his daughters in 1985 right before his death.</span>
+   </div>
+   <p>Muslim Arabs were introduced to a new type of racial discrimination as well: political opinion. After the Arab-Israeli conflict, Arab Americans 
+   became subjected to physical harassment and violence, including anonymous telephone threats to firebombing and vandalism of Arab American businesses and religious buildings. One of the more public crimes being the assassination of Alex Odeh in 1985, which demonstrated the sentiment and capability of political intolerance and anti-Arab domestic terrorism.</p>
+
+
+
+   <div class="references">
+      <h4>References</h4>
+      <p>Samha, Helen Hatab. (1987), Politics and Exclusion: The Arab American Experience,<i> Journal of Palestine Studies</i> (pp. 11-28) https://www.jstor.org/stable/2537085?seq=11</p>
+      <p>Hagopian, E. (1975). Minority Rights in a Nation-State: The Nixon Administration’s Campaign against Arab-Americans. <i>Journal of Palestine Studies, 5</i>(1/2), 97–114. https://doi.org/10.2307/2535685</p>
+   </div>
+</div>
