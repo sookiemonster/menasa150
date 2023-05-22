@@ -168,6 +168,14 @@
   padding-left: -3em;
   text-indent: 3em;
 }
+.chapter .desc {
+  display: block;
+  font-family: "Gelasio", serif;
+  color: #121212;
+  line-height: 2.5rem;
+  font-size: 1.05rem;
+  margin-bottom: 1.5rem;
+}
 .chapter .break {
   margin-top: -1rem;
   padding-left: 0em !important;
@@ -389,8 +397,8 @@ a {
 }
 .timeline-container .time-dot {
   position: relative;
-  left: 23px;
-  width: 27px;
+  left: 25px;
+  width: 23px;
   fill: #e50041;
 }
 .timeline-container .timeline-section .section-header {
@@ -430,7 +438,6 @@ a {
 .event-list {
   display: flex;
   flex-direction: column;
-  gap: 3px;
   padding-left: 43px;
 }
 .event-list .event-container {
@@ -483,6 +490,11 @@ a {
   top: 0;
   right: 0;
   margin: 20px;
+}
+
+.interview-container {
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=content.css.map */

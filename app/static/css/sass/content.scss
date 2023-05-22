@@ -4,7 +4,7 @@
 @use 'transition' as *;
 
 // Content Variables
-$circle-offset-x: 23px;
+$circle-offset-x: 25px;
 $event-offset-x: 43px;
 $timeline-offset-x: calc(40px + 2vw);
 
@@ -87,7 +87,7 @@ a {
    .time-dot {
       position: relative;
       left: $circle-offset-x;
-      width: 27px;
+      width: 23px;
       fill: $highlight;
    }
 
@@ -147,7 +147,7 @@ a {
 
    display: flex;
    flex-direction: column;
-   gap: 3px;
+   // gap: 0px;
    padding-left: $event-offset-x;
 
    .event-container {
@@ -215,4 +215,9 @@ a {
    top: 0;
    right: 0;
    margin: 20px;
+}
+
+.interview-container {
+   display: flex;
+   flex-direction: column;
 }

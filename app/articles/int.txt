@@ -1,0 +1,13 @@
+<div class="section-content">
+   <div class="interview-container">
+      <h3>Interview with Nada Elrey</h3>
+      <span class="desc">Egyptian-born Nada Elraey and her mother, Amira, sit down with us to detail their experiences as immigrants and the culture differences they had to adapt to. 
+      The interview is segmented into different parts and are aggregated for your convenience into the following playlist: </span>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLrTF7jXHUZOIQuQVrzXCBbvmmm2Mi6qUG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <span class="note">* Amira did not wish to be filmed, so there is no video footage for her portion of the interview
+      <h3>Interview with Deepa Lyer</h3>
+      <span class="desc">Deepa Iyer, an Indian immigrant, describes the beginning of her activism and what prompted her to get involved in her line of work. </span>
+
+
+   </div>
+</div>
