@@ -1,15 +1,20 @@
 <div class="section-content">
    <h3>Settlement</h3>
    <p>Initially, many not-well-off migrants from the Greater Syria region sought to return home after earning enough; about one-third of the migrants did return. At the end of the 1800s, more professionals and college-educated people started arriving in the U.S. Between 1880 and 1910 was the period thought of as the Pioneer period," where the peddling business flourished. Mostly men dominated the immigration wave, though about 70 percent of female immigrants engaged in peddling. In the 1910–1930 period, settlement became more common. The chain migration of women and children started to occur. Arab immigrants from other parts of Mesopotamia also began to arrive. There was a move away from peddling to business ownership, as it was more stable. As older immigrants began having children, their children quickly adopted the American lifestyle. Younger generations tend to embrace American values with greater ease and show even more embarrassment for their illiterate parents. The immigration wave decreased dramatically due to the Johnson-Reed Act of 1924, where Asian immigration was halted. The 1924 Act controlled immigration and established quotas set based on national origins, which effectively promoted European migration while drastically limiting regions that were considered part of Asia. It was not until the HartCeller Act of 1965 that the quote system based on national origins was abolished. Overall, from 1899 to 1924, there were a total of 77,330 Syrian immigrants who arrived.</p>
+   <div class="image-container full">
+      <image src="https://oxfordre.com/americanhistory/doc/10.1093/acrefore/9780199329175.001.0001/acrefore-9780199329175-e-598-graphic-002-full.gif">
+      <span class="caption caption-citation">Fahrenthold, S. D. (2019). Arab Labor Migration in the Americas, 1880–1930. <br>In Oxford Research Encyclopedia of American History. Oxford University Press. <br>https://doi.org/10.1093/acrefore/9780199329175.013.598</span>
+   </div>
+
+   <div class="image-container full">
+      <image src="img/sy_peddle.jpeg">
+      <span class="caption">Syrian Peddlers Selling Cold Water</span>
+   </div>
    <div class="quote-container">
       <div class="quote">
          “Socially, the deep satisfaction with America which accompanied their peddling success redirected their goals from those of temporary migrants to permanent citizens.” -Naff (1985)
          <div class="quote-author">Naff (1985)</div>
       </div>
-   </div>
-   <div class="image-container full">
-      <image src="img/sy_peddle.jpeg">
-      <span class="caption">Syrian Peddlers Selling Cold Water</span>
    </div>
    <p>Peddling was a central part of the Arab-American experience. After having children, Syrian immigrants generally abandoned the idea of returning to Syria and assimilated into American culture. Syrian peddlers often fell victim to orientalist stereotypes such as "exotic” or “manipulative." As it satisfied Syrian immigrants’ sense of individuality and entrepreneurial ambition (Naff, 1985).</p>
    <h3>Race</h3>

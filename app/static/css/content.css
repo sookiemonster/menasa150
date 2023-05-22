@@ -273,6 +273,14 @@
   text-align: center;
 }
 
+.caption-citation {
+  font-size: 0.75rem;
+  text-align: left;
+  padding-left: 3em;
+  text-indent: -3em;
+  padding-bottom: 1rem;
+}
+
 .full {
   margin: 0 auto;
   width: 100%;
