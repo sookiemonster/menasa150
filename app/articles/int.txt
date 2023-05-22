@@ -8,5 +8,6 @@
       <h3>Interview with Deepa Lyer</h3>
       <span class="desc">Deepa Iyer, an Indian immigrant, describes the beginning of her activism and what prompted her to get involved in her line of work. </span>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/M1OEpP2tXTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <span class="note">* Deepa also did not wish to be filmed, so there is no video footage for her interview</span>
    </div>
 </div>
